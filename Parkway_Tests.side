@@ -1,0 +1,1031 @@
+{
+  "id": "607d7f9a-ba87-4ee2-8d9f-99931b990a46",
+  "version": "2.0",
+  "name": "Parkway",
+  "url": "https://parkway.ng/",
+  "tests": [{
+    "id": "eaa5dae1-dd56-44d2-94b3-267d0dab661c",
+    "name": "Get Demo_Test Link opens Page",
+    "commands": [{
+      "id": "f51f91c6-661a-4278-afff-e795e1e9dbc6",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e04dfe5-b632-4d95-a3c9-ac67e075f369",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc0dd1d0-970d-47fd-9e21-3db92d01278c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1a6d628f-6505-495d-b587-ea39d0ac092e",
+    "name": "Get Demo_Invalild Name Field Format",
+    "commands": [{
+      "id": "dd78ac68-203b-4a24-967c-a2da4a25d776",
+      "comment": "",
+      "command": "open",
+      "target": "https://parkway.ng/get-demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a06b7d7a-accc-4ad5-a13c-88d5568a3eca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baf65319-de2a-4a6f-96d2-ac47b8cde49f",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87634e21-9615-4ed5-83ab-3be1fa05d748",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anthony Olaoye"
+    }, {
+      "id": "e2af624f-6616-4ddb-b1aa-6523e54aa4bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anthony !!! Olaoye"
+    }, {
+      "id": "d2ca3cb4-3f64-475c-a96d-4b9d830142da",
+      "comment": "",
+      "command": "click",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.mb-8:nth-child(3) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ea77b53-a699-4097-b8fa-fa7dc90f0593",
+      "comment": "",
+      "command": "type",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.mb-8:nth-child(3) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "decapolis520"
+    }, {
+      "id": "e7eb8f8e-12dc-47b5-a226-b0a5abff94c9",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b08e7e60-5e3c-4dca-afec-cca3ff59d02c",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "decapolis520@gmail.com"
+    }, {
+      "id": "b200de61-afa4-4c6c-bdd3-ad3df8c31d2f",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7671ff-1922-49ed-aeeb-f5c8f6775ad6",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "decapolis520@ail.com"
+    }, {
+      "id": "08e963fc-2aaa-41b6-b9af-8859936a5108",
+      "comment": "",
+      "command": "click",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a12ec73-497a-4d84-b366-afe9f43b4c3e",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "8060558445"
+    }, {
+      "id": "70799604-7667-41c2-ba6d-ee77f299ea3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lg\\3Agrow",
+      "targets": [
+        ["css=.lg\\3Agrow", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "845a8118-4399-45a5-8c52-ac1c7672edc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-full",
+      "targets": [
+        ["css=.rounded-full", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get a demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "302368aa-c5e7-4f43-9b85-aa51508148f0",
+    "name": "Get Demo_Invalild email Field Format",
+    "commands": [{
+      "id": "4866c2bb-1dcc-4486-9a99-016d7beeab6c",
+      "comment": "",
+      "command": "open",
+      "target": "https://parkway.ng/get-demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fe7d89c-9905-457f-a11a-e396b8336166",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0b9b060-0efc-4ea8-ab9b-d34bf299070e",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41832757-5ecb-4527-8919-0b3631d0dc1a",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anthony Olaoye"
+    }, {
+      "id": "bbbda3e4-e292-4edb-aaad-af192abe5f38",
+      "comment": "",
+      "command": "click",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.mb-8:nth-child(3) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "474fe563-3388-450d-9e73-bafae96f23dd",
+      "comment": "",
+      "command": "type",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.mb-8:nth-child(3) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "decapolis520"
+    }, {
+      "id": "15fc4362-719b-47b3-a336-9ae7ee34b75c",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99cf468f-a3fa-45cc-99bf-c493488c5f0d",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "decapolis520@ail.com"
+    }, {
+      "id": "fe7f1cb3-d1f6-46bb-a883-266872f99bd4",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "146.5,38.03125"
+    }, {
+      "id": "6d9469c0-0711-4fef-8701-aa402c25ff08",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "146.5,38.03125"
+    }, {
+      "id": "b858020a-d292-4fc4-83f5-fde76ebb0b33",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "146.5,38.03125"
+    }, {
+      "id": "37424488-bab5-426d-9d92-1b9bbfd44e58",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5f85094-5e59-4297-9638-bd34a2f1fac2",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "decapolis520@com"
+    }, {
+      "id": "69f12d40-d7e6-4fb2-9e0b-5d3e0c5c916e",
+      "comment": "",
+      "command": "click",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "477c96f1-c794-4ab7-bfb3-faa2c7afb2cf",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "8060558445"
+    }, {
+      "id": "47f6af09-0efc-4ece-bdfd-b61e1d119a10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-full",
+      "targets": [
+        ["css=.rounded-full", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get a demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1273c60-298c-4b6b-8ef9-3fa59aa640d5",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "css=.text-action-error",
+      "targets": [
+        ["css=.text-action-error", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'email must be a valid email')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "206e6ea1-a2c8-42ec-8907-72e981d8138e",
+    "name": "Get Demo_Invalild PhoneNumber Field Format",
+    "commands": [{
+      "id": "69b05033-3fbd-488b-a9b2-d5df8502d84b",
+      "comment": "",
+      "command": "open",
+      "target": "https://parkway.ng/get-demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ae846ab-677d-4310-b52e-c134e54710e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d76a785a-8302-4c96-b581-af0ea50ba36d",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7594707d-694f-46a9-bdb7-719a364290d0",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anthony Olaoye"
+    }, {
+      "id": "fa74c12e-73aa-4af5-a127-6e8d5fca8731",
+      "comment": "",
+      "command": "click",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.mb-8:nth-child(3) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21888dce-a0d7-4c9f-a389-2d36940d81bc",
+      "comment": "",
+      "command": "type",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.mb-8:nth-child(3) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "decapolis520"
+    }, {
+      "id": "19f764a5-094c-4855-9ed3-8129837dde15",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6e26c94-76f4-4c1d-8aa6-48fe3efdda2a",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "decapolis520@gmail.com"
+    }, {
+      "id": "f4056665-32f6-4fa9-b421-86fbdeb5dcb7",
+      "comment": "",
+      "command": "click",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34af83b3-9213-43f0-8290-da17e9bf9de4",
+      "comment": "",
+      "command": "click",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06ee40cc-1b35-471c-a200-c636a1af619e",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "!@2348060558445"
+    }, {
+      "id": "49f6f76f-6735-4ea0-a5b0-cca43a8f7d43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-full",
+      "targets": [
+        ["css=.rounded-full", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get a demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bc7ffa06-cc23-4f4f-b194-884a7419e2f2",
+    "name": "Get Demo_Link Button works",
+    "commands": [{
+      "id": "8c894179-5591-4fcf-870c-26c1daac1457",
+      "comment": "",
+      "command": "open",
+      "target": "https://parkway.ng/get-demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e261d27-91e0-405f-9f2b-da88d03f0654",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5ddea68-412b-4e76-b242-3cd77fa18e55",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f3704d8-4f39-4af0-9b43-b88f14bde003",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anthony Olaoye"
+    }, {
+      "id": "8a552a23-a45d-4051-aa55-07876eafebf4",
+      "comment": "",
+      "command": "click",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.mb-8:nth-child(3) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be31de74-8505-4d62-a365-5ff4d5f5d5d4",
+      "comment": "",
+      "command": "type",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.mb-8:nth-child(3) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "decapolis520"
+    }, {
+      "id": "af15a950-94a5-416b-859d-4c2b45345985",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f94d203e-df06-4e8b-8fde-91ed2bad723d",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "decapolis520@gmail.com"
+    }, {
+      "id": "f0f05784-2d3b-4e09-9596-1008ea4a2973",
+      "comment": "",
+      "command": "click",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "965d4c05-4f6c-404b-9c24-3ff9c3db8f96",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "8060558445"
+    }, {
+      "id": "880d96f1-3eb7-4828-87bf-373994775a64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-full",
+      "targets": [
+        ["css=.rounded-full", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get a demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c282fa3f-48a6-4183-81b2-6e3e13af3b8a",
+    "name": "Get Demo_Reply message is displayed",
+    "commands": [{
+      "id": "6a70e485-91fd-4939-b2fc-f88bf91d91f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://parkway.ng/get-demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5568ff9b-59e1-411e-92b5-09bab5e7f61d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "156e4ee7-f49f-4d88-b08e-4ecd936357e4",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77a3322e-0432-493c-b5f0-1c363cbd867b",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.mb-8:nth-child(2) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=//input[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anthony Olaoye"
+    }, {
+      "id": "06519950-e918-4c97-b368-7a4dcecfcd5e",
+      "comment": "",
+      "command": "click",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.mb-8:nth-child(3) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f1a21e9-6f69-4ddc-9908-8d1097de40e2",
+      "comment": "",
+      "command": "type",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.mb-8:nth-child(3) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "decapolis520"
+    }, {
+      "id": "79548a82-3247-45b7-a258-60ed0390ba6b",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0846de0-2f57-4f63-8578-a6d0b973a160",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.mb-8:nth-child(4) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "decapolis520@gmail.com"
+    }, {
+      "id": "ab49b7f3-07dc-4d2d-acf7-61443af24399",
+      "comment": "",
+      "command": "click",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b2e5022-464f-4409-b54b-473938c56f37",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.mb-8:nth-child(5) > .md\\3Aw-\\[436px\\]", "css:finder"],
+        ["xpath=(//input[@id=''])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "8060558445"
+    }, {
+      "id": "240e0fd8-c951-4374-a7bf-2333ea3b1cc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-full",
+      "targets": [
+        ["css=.rounded-full", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get a demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d76861ae-f757-44c9-86be-58490c37bde4",
+    "name": "Our Solutions_Menu Link Opens Page",
+    "commands": [{
+      "id": "77257e7a-2642-4d85-94ee-8675f9c7c601",
+      "comment": "",
+      "command": "open",
+      "target": "https://parkway.ng/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd1f8e29-aadb-4237-b178-c66e620cba58",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33d16286-fdcf-4a01-8ce2-97353cc08019",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group:nth-child(1) .grid > div:nth-child(1) .md\\3Atext-\\[16px\\]",
+      "targets": [
+        ["css=.group:nth-child(1) .grid > div:nth-child(1) .md\\3Atext-\\[16px\\]", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/nav/div/nav/ul/li/div/section/div/div/a/div/p", "xpath:idRelative"],
+        ["xpath=//div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Settlements')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "99d1beb8-f73c-448a-ba3e-39283b32019b",
+    "name": "Our Solutions_Menu Link Settlements",
+    "commands": [{
+      "id": "f81dc950-48ae-4250-91ce-ed98c7e9898c",
+      "comment": "",
+      "command": "open",
+      "target": "https://parkway.ng/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a138a3e5-a4df-4fe2-a01c-63f797818a28",
+      "comment": "",
+      "command": "type",
+      "target": "css=.min-w-\\[275px\\] > .fill-secondary",
+      "targets": [
+        ["css=.min-w-\\[275px\\] > .fill-secondary", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "37062988-53a1-4f86-9c14-3435ace8346f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ee5dd90-6554-4161-a819-f9a596ca1cc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group:nth-child(1) > .flex > .md\\3Atext-\\[18px\\]",
+      "targets": [
+        ["css=.group:nth-child(1) > .flex > .md\\3Atext-\\[18px\\]", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/nav/div/nav/ul/li/button/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Our Solutions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cf178c79-e4ea-44b6-8378-0dff22c51346",
+    "name": "Our Solutions_Menu Link e payment",
+    "commands": []
+  }, {
+    "id": "6371df3f-1e57-492d-a7f5-32cbdf4ba66f",
+    "name": "Our Solutions_Menu Link cards",
+    "commands": [{
+      "id": "cef63945-69b6-4623-8ad2-43e8a3788849",
+      "comment": "",
+      "command": "open",
+      "target": "https://parkway.ng/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2195ee3c-fc25-4483-b44a-e7549cfba2aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfa27edb-2f3e-4ccc-b9e4-6bf51e5dc7dd",
+      "comment": "",
+      "command": "type",
+      "target": "linkText=Get a demo",
+      "targets": [
+        ["linkText=Get a demo", "linkText"],
+        ["css=.bg-primary:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/main/header/section/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/get-demo')])[2]", "xpath:href"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get a demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a2fb310-efc1-4f26-b6f0-c6330f52c57e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group:nth-child(1) > .lg\\3Agroup-hover\\3A block div:nth-child(2) .md\\3Atext-\\[16px\\]",
+      "targets": [
+        ["css=.group:nth-child(1) > .lg\\3Agroup-hover\\3A block div:nth-child(2) .md\\3Atext-\\[16px\\]", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/nav/div/nav/ul/li/div/section/div/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Cards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b8a0d3f1-6508-441b-b961-fbce48af2a9c",
+    "name": "Our Solutions_Menu Link agency banking",
+    "commands": [{
+      "id": "c8717eb3-a604-4395-a21b-1ed1748025ba",
+      "comment": "",
+      "command": "open",
+      "target": "https://parkway.ng/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54458258-58b8-4b31-93d9-afb4c7fa06b3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf9970af-8c80-4753-aceb-a6815367e3f3",
+      "comment": "",
+      "command": "type",
+      "target": "linkText=Start Building",
+      "targets": [
+        ["linkText=Start Building", "linkText"],
+        ["css=.rounded-full:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/main/header/section/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/get-demo')])[2]", "xpath:href"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start Building')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e92510f8-b4be-4f36-b2fa-2bc859a76055",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > .undefined .md\\3Atext-\\[16px\\]",
+      "targets": [
+        ["css=div:nth-child(4) > .undefined .md\\3Atext-\\[16px\\]", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/nav/div/nav/ul/li/div/section/div/div[4]/a/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'e-Payments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cc2cc020-c3eb-40ca-8be7-a617c12a867a",
+    "name": "Our Solutions_Menu Link e wallets",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "63f59963-3ab3-4963-856c-459cef888055",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eaa5dae1-dd56-44d2-94b3-267d0dab661c"]
+  }, {
+    "id": "cf47cb19-4415-4f36-b6d9-477908ccd378",
+    "name": "Get Demo",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1a6d628f-6505-495d-b587-ea39d0ac092e", "206e6ea1-a2c8-42ec-8907-72e981d8138e", "302368aa-c5e7-4f43-9b85-aa51508148f0", "bc7ffa06-cc23-4f4f-b194-884a7419e2f2", "c282fa3f-48a6-4183-81b2-6e3e13af3b8a", "eaa5dae1-dd56-44d2-94b3-267d0dab661c"]
+  }, {
+    "id": "dd106be3-216b-4379-b0b3-dd094e1726b2",
+    "name": "Our Solutions",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d76861ae-f757-44c9-86be-58490c37bde4", "99d1beb8-f73c-448a-ba3e-39283b32019b", "b8a0d3f1-6508-441b-b961-fbce48af2a9c", "6371df3f-1e57-492d-a7f5-32cbdf4ba66f", "cf178c79-e4ea-44b6-8378-0dff22c51346", "cc2cc020-c3eb-40ca-8be7-a617c12a867a"]
+  }],
+  "urls": ["https://parkway.ng/get-demo", "https://parkway.ng/"],
+  "plugins": []
+}
